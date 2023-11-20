@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1> Mangotas Academy </h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2> Cadastro </h2>
+
+            <form action="obrigado.html">
+
+                <div>
+                    <label for="ctrl-name"> Nome: </label>
+                    <input id="ctrl-name" name="name" type="text" placeholder="Digite seu nome:">
+                </div>
+                
+                <div>
+                    <label for="ctrl-email"> Email: </label>
+                    <input id="ctrl-email" name="email" type="text" placeholder="Digite seu email:">
+                </div>
+
+                <div>
+                    <label for="ctrl-password"> Senha: </label>
+                    <input id="ctrl-name" name="password" type="email" placeholder="Digite seu senha:">
+                </div>
+
+                <div>
+                    <label for="ctrl-city"> Cidade:</label>
+                    <select name="city" id="ctrl-city">
+                        <option value="1"> João Pessoa </option>
+                        <option value="2"> Recife </option>
+                        <option value="3"> Porto Alegre </option>
+                        <option value="1"> Maceió </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="ctrl-level"> Escolaridade: </label>
+                    <div id="ctrl-level">
+                        <input type="radio" name="level">
+                        <label for="ctrl-level-1"> Fundamental </label>
+                        <label for="ctrl-level"></label>
+                        <input type="radio" name="level">
+                        <label for="ctrl-level-2"> Médio </label>
+                        <label for="ctrl-level"></label>
+                        <input type="radio" name="level">
+                        <label for="ctrl-level-3"> Superior </label>
+                    </div> 
+                </div>
+
+                <div>
+                    <label for="ctrl-games"> Quais jogos você conhece? </label>
+                    <div id="ctrl-games">
+                       <input id="ctrl-games-valorant" name="game1" type="checkbox">
+                       <label for="ctrl-games-valorant"> Valorant </label>
+                       
+                       <input id="ctrl-games-fortnite" name="game2" type="checkbox">
+                       <label for="ctrl-games-fortnite"> Fortnite </label>
+                       
+                       <input id="ctrl-games-cs" name="game3" type="checkbox">
+                       <label for="ctrl-games-cs"> Counter Strike </label>
+                       
+                       <input id="ctrl-games-cod-mw2" name="game4" type="checkbox">
+                       <label for="ctrl-games-cod-mw2"> COD MW2 </label>
+                    </div>
+                </div>
+                
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar Tudo">
+            
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
