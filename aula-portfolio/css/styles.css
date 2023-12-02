@@ -132,7 +132,7 @@ footer {
     margin: 10px;
 }
 
-@media(min-width: 576px){           /* Tudo que for colocado nas chaves, vai valera para o 576px em diante*/
+@media(min-width: 576px){           /* Tudo que for colocado nas chaves, vai valer para o 576px em diante */
 
     html {
         font-size: 20px;
@@ -154,9 +154,13 @@ footer {
     .nav-main{
         flex-direction: row;
         justify-content: space-between;
-
     }
     .nav-brand{
-        margin: 0;
+        margin-bottom: 0;
+        font-size: 30px;
     }
+    .menu-items li {
+        font-size: 16px;
+    }
+    
 }
